@@ -1,5 +1,6 @@
 checkpoint*
 .DS_Store
+__pycache__/
 
 # model
 *.pt
