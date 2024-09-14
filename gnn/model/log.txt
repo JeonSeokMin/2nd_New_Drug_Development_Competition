@@ -1,0 +1,32 @@
+[Exp  1] got train_loss: 0.34062424302101135, rmse: 0.657, std: 0.657 at epoch 254 took 45.4 sec
+Hyperparameters: lr: 0.001, n_layer: 2
+Validation RMSE: 2182.2102, MSE: 4762041.3819
+Final Score: 0.9050, Normalized RMSE: 0.1900, Correct Ratio: 1.0000
+[Exp  2] got train_loss: 0.4210287630558014, rmse: 0.650, std: 0.650 at epoch 236 took 52.9 sec
+Hyperparameters: lr: 0.001, n_layer: 3
+Validation RMSE: 2279.9690, MSE: 5198258.4762
+Final Score: 0.8939, Normalized RMSE: 0.2121, Correct Ratio: 1.0000
+[Exp  3] got train_loss: 0.5525557994842529, rmse: 0.632, std: 0.632 at epoch 294 took 63.1 sec
+Hyperparameters: lr: 0.001, n_layer: 4
+Validation RMSE: 4768.8366, MSE: 22741802.2870
+Final Score: 0.8651, Normalized RMSE: 0.2698, Correct Ratio: 1.0000
+[Exp  4] got train_loss: 0.2672410011291504, rmse: 0.646, std: 0.642 at epoch 203 took 73.2 sec
+Hyperparameters: lr: 0.001, n_layer: 5
+Validation RMSE: 2088.0673, MSE: 4360025.1432
+Final Score: 0.8990, Normalized RMSE: 0.2020, Correct Ratio: 1.0000
+[Exp  5] got train_loss: 0.5068339109420776, rmse: 0.673, std: 0.673 at epoch 244 took 43.8 sec
+Hyperparameters: lr: 0.005, n_layer: 2
+Validation RMSE: 2010.3462, MSE: 4041491.9048
+Final Score: 0.9181, Normalized RMSE: 0.1639, Correct Ratio: 1.0000
+[Exp  6] got train_loss: 0.431485652923584, rmse: 0.655, std: 0.655 at epoch 225 took 53.9 sec
+Hyperparameters: lr: 0.005, n_layer: 3
+Validation RMSE: 2164.9398, MSE: 4686964.2480
+Final Score: 0.9255, Normalized RMSE: 0.1490, Correct Ratio: 1.0000
+[Exp  7] got train_loss: 0.2860822081565857, rmse: 0.641, std: 0.641 at epoch 291 took 63.5 sec
+Hyperparameters: lr: 0.005, n_layer: 4
+Validation RMSE: 2192.0849, MSE: 4805236.0695
+Final Score: 0.9221, Normalized RMSE: 0.1558, Correct Ratio: 1.0000
+[Exp  8] got train_loss: 0.5517358779907227, rmse: 0.649, std: 0.649 at epoch 254 took 75.3 sec
+Hyperparameters: lr: 0.005, n_layer: 5
+Validation RMSE: 2109.3029, MSE: 4449158.8610
+Final Score: 0.8891, Normalized RMSE: 0.2218, Correct Ratio: 1.0000
