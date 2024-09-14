@@ -1,2 +1,8 @@
 checkpoint*
 .DS_Store
+
+# model
+*.pt
+
+# environment
+venv*/
