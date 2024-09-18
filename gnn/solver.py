@@ -4,7 +4,7 @@ import torch.nn as nn
 import torch.optim as optim
 import numpy as np
 
-from model import GCNNet
+from model_gcn import GCNNet
 
 def train(model, dataloader, optimizer, criterion, args, **kwargs):
     
