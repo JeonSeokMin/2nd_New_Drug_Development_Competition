@@ -1,6 +1,7 @@
 import torch
 import torch.nn as nn
 import torch.optim as optim
+import torch.nn.functional as F
 
 
 class BN1d(nn.Module):
@@ -56,7 +57,7 @@ class GAT(nn.Module):
         print(f'attention: {attention.size()}')
 
         # 5. 최종 노드 표현 계산: h' = σ(Σ α * Wh)
-        H_prime = torch.zeros(B, N, self.num_heads, self.num_heads * self.output_dim)
+        H_prime = torch.zeros(B, N, self.num_heads, self.num_heads * self.output_dim, device=X.device)
         # for i in range(N):
         #     for j in range(self.num_heads):
         #         H_prime[i, j] = torch.mm(attention[i, j].unsqueeze(0), H[:, j, :])
